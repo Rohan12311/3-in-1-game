@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FAEF9B;
+}
+.container{
+ min-width: 100vh;
+ height: 50vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #F6D776;
+ gap: 50px;
+ border-radius: 30px;
+ border: 3px solid black;
+}
+.container button{
+    height: 12vh;
+    width: 25vh;
+    background-color: #EDC400;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: #ffed92;
+}
